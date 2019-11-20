@@ -1,0 +1,78 @@
+form#join {
+	margin:10px 0 0 0;
+	width:670px;	
+	}
+
+
+form#join fieldset {
+	padding:10px 0 20px 5px;
+	border:none;
+}
+
+
+form#join fieldset legend {
+	font-family: seo;
+	font-size: 23px;
+	border-bottom: 1px dotted #666;
+	width:600px;
+	padding:5px 0;
+	color:gray;
+}
+
+
+form#join label {
+	width:140px;
+	float:left;
+	margin:5px  0;	
+	color:gray;
+}
+form#join input {
+	margin:5px 0 ;
+	background-color: #FCFDEA;
+	border: 1px solid #999;
+}
+
+form#join input.id {
+	width:100px;
+	height:18px;	
+}
+
+form#join input.dup {
+	width:120px;
+	height:23px;
+	border-radius:8px;
+	border:none;
+	margin:0 0 0 5px;
+	font-weight: bold;
+	color: gray;
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+form#join input.pass {
+	width:150px;
+	height:18px;
+}
+form#join input.name {
+	width:80px;
+	height:18px;
+}
+form#join input.email{
+	width:200px;
+	height:18px;
+}
+form#join input.address {
+	width:300px;
+	height:18px;
+}
+form#join input.phone {
+	width:150px;
+	height:18px;
+}
+form#join #buttons {
+	margin:20px 0 0 0;
+}
+
+
+
+

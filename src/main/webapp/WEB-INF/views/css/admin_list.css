@@ -1,0 +1,26 @@
+table#admin_list {
+      width: 680px;
+      border: 1px solid #363636;
+   }
+   table#admin_list th, table#admin_list td {
+      padding:5px;
+      border: 1px solid #363636;
+      text-align: center;
+      vertical-align: middle;
+   }
+   table#admin_list th {
+      vertical-align: middle;
+      font-size: 12px;
+      text-shadow: 1px 1px 1px #fff;
+      background: #f2f6f8; 
+      background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); 
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9)); 
+      background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+      background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+      background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+      background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); 
+   }
+   
+   table#admin_list td{border-bottom: 1px dotted #ccc; cursor: pointer;}
+   table#admin_list tr:nth-child(even){background-color: rgba(245,245,245,0.9);}
